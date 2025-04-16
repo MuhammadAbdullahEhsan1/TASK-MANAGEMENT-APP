@@ -1,16 +1,45 @@
-# task_management_app
+# 📝 Task Manager App
 
-A new Flutter project.
+A beautiful, minimal, and responsive Task Management app built using **Flutter**. This app allows users to add, complete, and delete tasks, with data persistence using **SharedPreferences**. State management is handled via the **Provider** package.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Add tasks with a title
+- 📋 View a dynamic list of tasks
+- 🔁 Mark tasks as completed
+- 🗑️ Delete tasks with swipe-to-dismiss
+- 💾 Persistent storage using `SharedPreferences`
+- 🪄 Splash screen for initial branding
+- 🎨 Clean and modern UI with Material 3
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Screenshots
+
+| Splash Screen | Task List | Add Task |
+|---------------|-----------|----------|
+| ![Splash](https://via.placeholder.com/200x400?text=Splash+Screen) | ![List](https://via.placeholder.com/200x400?text=Task+List) | ![Add](https://via.placeholder.com/200x400?text=Add+Task+Dialog) |
+
+> *(Replace with real screenshots once available)*
+
+---
+
+## 📦 Packages Used
+
+| Package            | Purpose                          |
+|--------------------|----------------------------------|
+| `provider`         | State management                 |
+| `shared_preferences` | Local data persistence          |
+| `flutter/material` | Beautiful UI and widgets         |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/task-manager-app.git
+cd task-manager-app
